@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    
     box-sizing: border-box;
 }
 
@@ -21,13 +20,13 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    gap:5em;
+    
     background-color: darkgrey;
     
 }
 
 .box{
-    border: 2px white solid;
+    border: 1px white solid;
     background-color: white;
     border-radius: 1em;
 }
@@ -39,49 +38,24 @@ body{
     border-radius: 0.5em;
     padding: 1em;
 }
+.image img{
+    border-radius: 0.5em;
+}
 
 .title1{
     width: 100%;
+    max-width: 18rem;
     font-size: 1.3rem;
-    margin-top: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.title2{
-    width: 100%;
-    font-size: 1.3rem;
-    margin-top: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0.1em;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
 }
 
-.para{
-    padding: 1em;
-    margin-bottom: 1em;
-}
 .p1{
+    width: 100%;
     max-width: 20rem;
     font-size: 1.0rem;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
+    padding: 1.5em;
+    text-align: center;
 }
-.p2{
-    max-width: 20rem;
-    font-size: 1.0rem;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.p3{
-    font-size: 1.0rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
